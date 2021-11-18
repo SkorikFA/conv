@@ -3,7 +3,6 @@
 
 import torch.nn as nn
 
-
 class Convolutional(nn.Module):
     def __init__(self,outputs_count):
         super(Convolutional, self).__init__()
