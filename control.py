@@ -11,8 +11,8 @@ class NetworksControl:
     def __init__(self,path_to_src, path_to_save_dir):
         self.path_to_letters_src=path_to_src
         self.path_to_save=path_to_save_dir
-        self.device = torch.device('cuda:0')
-        # self.device = torch.device('cpu')
+        # self.device = torch.device('cuda:0')
+        self.device = torch.device('cpu')
         self.letters = self.get_letters_by_path(self.path_to_letters_src)
 
     def train(self, num_epochs):
