@@ -4,7 +4,6 @@
 import os
 from control import NetworksControl
 
-
 def main():
     mode = 1  # 0 - train  1 - run
     network_name = 'conv_s0'
